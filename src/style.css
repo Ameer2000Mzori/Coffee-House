@@ -35,6 +35,21 @@ body {
   flex-direction: column;
 }
 
+.navbar .nav-Wrap .nav-Left .nav-Left-Wrap {
+  width: 150px;
+  height: 100px;
+}
+
+.navbar .nav-Wrap .nav-Left .nav-Left-Wrap .nav-Left-Text-Icon-Wrap {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
 .navbar .nav-Wrap .nav-Right {
   width: 50%;
   height: 100%;
