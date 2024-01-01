@@ -85,3 +85,20 @@ body {
   justify-content: flex-start;
   flex-direction: row;
 }
+
+.navbar .nav-Wrap .nav-Right .nav-Right-Wrap .nav-Right-Links ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar .nav-Wrap .nav-Right .nav-Right-Wrap .nav-Right-Links ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding: 1rem;
+}
