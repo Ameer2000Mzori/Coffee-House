@@ -18,4 +18,14 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  .nav-Wrap {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+  }
 }
