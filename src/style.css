@@ -137,6 +137,17 @@ body {
   color: rgb(143, 123, 9);
 }
 
+@media screen and (max-width: 1440px) {
+  .navbar .nav-Wrap {
+    align-items: start;
+    justify-content: flex-start;
+  }
+
+  .navbar .nav-Wrap .nav-Left {
+    width: 30%;
+  }
+}
+
 .header,
 .header-Wrap {
   display: flex;

@@ -143,6 +143,20 @@ body {
     }
   }
 }
+//  NavBar responsvness
+@media screen and (max-width: 1440px) {
+  .navbar {
+    .nav-Wrap {
+      align-items: start;
+      justify-content: flex-start;
+
+      .nav-Left {
+        width: 30%;
+      }
+    }
+  }
+}
+
 // Header
 .header,
 .header-Wrap {
