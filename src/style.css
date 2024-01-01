@@ -174,7 +174,9 @@ body {
 .header-Wrap .header-Wrap .images-Wrap .header-Imgs {
   width: 100%;
   height: 100%;
+  transform: translateX(0%);
   object-fit: cover;
+  transition: all 500ms ease-in-out;
 }
 
 .header .header-Wrap .header-Text-Button-Wrap,
