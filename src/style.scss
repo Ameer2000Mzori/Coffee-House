@@ -178,5 +178,13 @@ body {
         object-fit: cover;
       }
     }
+
+    .header-Text-Button-Wrap {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
   }
 }
