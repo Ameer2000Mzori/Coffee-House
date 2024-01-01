@@ -198,10 +198,20 @@ body {
 .header .header-Wrap .header-Text-Button-Wrap .header-Text-2,
 .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Text-2 {
   font-family: "Josefin Sans", sans-serif;
-  font-size: 5rem;
+  font-size: 4rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 1.5;
+  letter-spacing: 0.2rem;
+  width: 50%;
+}
+
+.header .header-Wrap .header-Text-Button-Wrap .header-Text-3,
+.header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Text-3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
   font-weight: 500;
-  width: 80%;
-  padding: 0;
-  margin: 0;
+  width: 50%;
   color: white;
 }
