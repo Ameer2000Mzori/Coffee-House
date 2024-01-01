@@ -273,3 +273,11 @@ body {
   color: white;
   background-color: #c49b63;
 }
+
+.header .header-Wrap .header-Slider-Buttons-Wrap,
+.header-Wrap .header-Wrap .header-Slider-Buttons-Wrap {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translate(-50%);
+}
