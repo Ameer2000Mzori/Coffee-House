@@ -8,6 +8,7 @@ $fontFour: "Great Vibes", cursive;
 body {
   padding: 0;
   margin: 0;
+  background-color: black;
 }
 // navbar
 .navbar {
@@ -49,8 +50,10 @@ body {
           align-items: center;
           justify-content: space-evenly;
           flex-direction: row;
+          color: white;
 
           #nav-Icon {
+            color: white;
             font-size: 3rem;
           }
         }
@@ -64,6 +67,7 @@ body {
             padding: 0;
             margin: 0;
             font-family: $fontThree;
+            font-weight: 500;
           }
         }
       }
@@ -104,10 +108,10 @@ body {
               padding: 1rem;
 
               a {
-                font-family: $fontTwo;
+                font-family: $fontThree;
                 text-decoration: none;
-                color: black;
-                font-weight: 600;
+                color: white;
+                font-weight: 500;
 
                 #nav-Icon {
                   font-size: 1.5rem;

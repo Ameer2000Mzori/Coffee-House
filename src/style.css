@@ -3,6 +3,7 @@
 body {
   padding: 0;
   margin: 0;
+  background-color: black;
 }
 
 .navbar {
@@ -48,9 +49,11 @@ body {
   align-items: center;
   justify-content: space-evenly;
   flex-direction: row;
+  color: white;
 }
 
 .navbar .nav-Wrap .nav-Left .nav-Left-Wrap .nav-Left-Text-Icon-Wrap #nav-Icon {
+  color: white;
   font-size: 3rem;
 }
 
@@ -64,6 +67,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 
 .navbar .nav-Wrap .nav-Right {
@@ -104,10 +108,10 @@ body {
 }
 
 .navbar .nav-Wrap .nav-Right .nav-Right-Wrap .nav-Right-Links ul li a {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
-  color: black;
-  font-weight: 600;
+  color: white;
+  font-weight: 500;
 }
 
 .navbar .nav-Wrap .nav-Right .nav-Right-Wrap .nav-Right-Links ul li a #nav-Icon {
