@@ -18,22 +18,27 @@ var startCounting = function () {
     setInterval(function () {
         numCounter++;
         console.log(numCounter);
-        if (numCounter > 4) {
-            numCounter = 0;
-            if (slideCount === 0) {
-                slideCount++;
-                changeImg(slideCount);
-            }
-            else if (slideCount === 1) {
-                slideCount++;
-                changeImg(slideCount);
-            }
-            else {
-                slideCount = 0;
-                changeImg(slideCount);
-            }
-        }
+        // calling our change image function
+        imageChangeLogic();
     }, 1000);
+};
+var imageChangeLogic = function () {
+    // our if else lader
+    if (numCounter > 4) {
+        numCounter = 0;
+        if (slideCount === 0) {
+            slideCount++;
+            changeImg(slideCount);
+        }
+        else if (slideCount === 1) {
+            slideCount++;
+            changeImg(slideCount);
+        }
+        else {
+            slideCount = 0;
+            changeImg(slideCount);
+        }
+    }
 };
 // events
 sliderButtons.forEach(function (sliderBtn, index) {
@@ -41,6 +46,4 @@ sliderButtons.forEach(function (sliderBtn, index) {
         changeImg(index);
     });
 });
-window.addEventListener("load", function () {
-    startCounting(0);
-});
+startCounting(0);

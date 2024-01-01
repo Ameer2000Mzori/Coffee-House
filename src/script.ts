@@ -20,27 +20,32 @@ const startCounting = () => {
   setInterval(() => {
     numCounter++;
     console.log(numCounter);
-    if (numCounter > 4) {
-      numCounter = 0;
-      if (slideCount === 0) {
-        slideCount++;
-        changeImg(slideCount);
-      } else if (slideCount === 1) {
-        slideCount++;
-        changeImg(slideCount);
-      } else {
-        slideCount = 0;
-        changeImg(slideCount);
-      }
-    }
+    // calling our change image function
+    imageChangeLogic();
   }, 1000);
 };
+
+const imageChangeLogic = () => {
+  // our if else lader
+  if (numCounter > 4) {
+    numCounter = 0;
+    if (slideCount === 0) {
+      slideCount++;
+      changeImg(slideCount);
+    } else if (slideCount === 1) {
+      slideCount++;
+      changeImg(slideCount);
+    } else {
+      slideCount = 0;
+      changeImg(slideCount);
+    }
+  }
+};
+
 // events
 sliderButtons.forEach((sliderBtn, index) => {
   sliderBtn.addEventListener("click", () => {
     changeImg(index);
   });
 });
-window.addEventListener("load", () => {
-  startCounting(0);
-});
+startCounting(0);
