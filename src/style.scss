@@ -188,7 +188,8 @@ body {
 
       .header-Text-1 {
         font-family: $fontFour;
-        font-size: 3.5rem;
+        font-size: 3rem;
+        font-weight: 200;
         padding: 0;
         margin: 0;
         color: #c49b63;
@@ -198,6 +199,8 @@ body {
         font-family: "Josefin Sans", sans-serif;
         font-size: 4rem;
         font-weight: 400;
+        padding: 0;
+        margin: 0;
         text-transform: uppercase;
         color: #fff;
         line-height: 1.5;
