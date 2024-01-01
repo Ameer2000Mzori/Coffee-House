@@ -19,6 +19,9 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: fixed;
+  width: 100%;
+  top: 0;
 
   .nav-Wrap {
     width: 100%;
@@ -135,4 +138,13 @@ body {
       }
     }
   }
+}
+// Header
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
 }
