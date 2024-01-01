@@ -133,11 +133,32 @@ body {
   color: rgb(143, 123, 9);
 }
 
-.header {
+.header,
+.header-Wrap {
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
   height: 95vh;
+  position: relative;
+}
+
+.header .header-Wrap,
+.header-Wrap .header-Wrap {
+  height: 100%;
+  width: 100%;
+}
+
+.header .header-Wrap .images-Wrap,
+.header-Wrap .header-Wrap .images-Wrap {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
 }
