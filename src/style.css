@@ -112,8 +112,20 @@ body {
   text-decoration: none;
   color: white;
   font-weight: 500;
+  transition: all 250ms ease-in-out;
 }
 
 .navbar .nav-Wrap .nav-Right .nav-Right-Wrap .nav-Right-Links ul li a #nav-Icon {
   font-size: 1.5rem;
+}
+
+.navbar .nav-Wrap .nav-Right .nav-Right-Wrap .nav-Right-Links ul li a:hover {
+  color: rgb(143, 123, 9);
+}
+
+.navbar .nav-Wrap .nav-Right .nav-Right-Wrap .nav-Right-Links ul li .active {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  font-weight: 600;
+  color: rgb(143, 123, 9);
 }
