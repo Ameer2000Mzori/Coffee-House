@@ -234,7 +234,7 @@ body {
           background-color: #c49b63;
           font-family: $fontTwo;
           font-size: 1rem;
-          font-weight: 600;
+          font-weight: 500;
           border: none;
           color: #fff;
           transition: all 350ms ease-in-out;
@@ -244,6 +244,23 @@ body {
             border: solid #c49b63 1px;
             color: #c49b63;
             background-color: transparent;
+          }
+        }
+
+        .view-More-Btn {
+          background-color: transparent;
+          font-family: $fontTwo;
+          font-size: 1rem;
+          font-weight: 500;
+          color: #fff;
+          border: solid white 1px;
+          transition: all 350ms ease-in-out;
+
+          &:hover {
+            cursor: pointer;
+            border: solid #c49b63 1px;
+            color: white;
+            background-color: #c49b63;
           }
         }
       }
