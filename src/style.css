@@ -218,3 +218,20 @@ body {
   width: 50%;
   color: white;
 }
+
+.header .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap,
+.header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap {
+  width: 50%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.header .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap #header-Buttons,
+.header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap #header-Buttons {
+  padding: 15px 35px;
+}

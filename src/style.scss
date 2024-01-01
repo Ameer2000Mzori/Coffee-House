@@ -215,6 +215,21 @@ body {
         width: 50%;
         color: white;
       }
+
+      .header-Buttons-Wrap {
+        width: 50%;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+
+        #header-Buttons {
+          padding: 15px 35px;
+        }
+      }
     }
   }
 }
