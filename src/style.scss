@@ -297,3 +297,42 @@ body {
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .header,
+  .header-Wrap {
+    .header-Wrap {
+      .header-Text-Button-Wrap {
+        .header-Text-1 {
+          font-size: 2.3rem;
+        }
+
+        .header-Text-2 {
+          font-size: 1.8rem;
+          width: 100%;
+        }
+
+        .header-Text-3 {
+          font-size: 0.8rem;
+          width: 80%;
+        }
+
+        .header-Buttons-Wrap {
+          width: 90%;
+
+          #header-Buttons {
+            padding: 13px 20px;
+          }
+
+          .order-Now-Btn {
+            font-size: 0.7rem;
+          }
+
+          .view-More-Btn {
+            font-size: 0.7rem;
+          }
+        }
+      }
+    }
+  }
+}

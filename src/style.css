@@ -306,3 +306,42 @@ body {
   border-radius: 50%;
   padding: 1px;
 }
+
+@media screen and (max-width: 768px) {
+  .header .header-Wrap .header-Text-Button-Wrap .header-Text-1,
+  .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Text-1 {
+    font-size: 2.3rem;
+  }
+
+  .header .header-Wrap .header-Text-Button-Wrap .header-Text-2,
+  .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Text-2 {
+    font-size: 1.8rem;
+    width: 100%;
+  }
+
+  .header .header-Wrap .header-Text-Button-Wrap .header-Text-3,
+  .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Text-3 {
+    font-size: 0.8rem;
+    width: 80%;
+  }
+
+  .header .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap,
+  .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap {
+    width: 90%;
+  }
+
+  .header .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap #header-Buttons,
+  .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap #header-Buttons {
+    padding: 13px 20px;
+  }
+
+  .header .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap .order-Now-Btn,
+  .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap .order-Now-Btn {
+    font-size: 0.7rem;
+  }
+
+  .header .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap .view-More-Btn,
+  .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap .view-More-Btn {
+    font-size: 0.7rem;
+  }
+}
