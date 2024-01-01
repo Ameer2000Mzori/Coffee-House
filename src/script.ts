@@ -6,6 +6,8 @@ const imagesHolderEl: any = document.getElementsByClassName("images-Holder")[0];
 let numCounter = 0;
 let slideCount = 0;
 // functions
+
+// change image function by munipulating the translateX
 const changeImg = (index) => {
   numCounter = 0;
   sliderButtons.forEach((sliderBtn) => {
@@ -19,7 +21,6 @@ const changeImg = (index) => {
 const startCounting = () => {
   setInterval(() => {
     numCounter++;
-    console.log(numCounter);
     // calling our change image function
     imageChangeLogic();
   }, 1000);
