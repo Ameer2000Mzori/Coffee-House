@@ -185,3 +185,23 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.header .header-Wrap .header-Text-Button-Wrap .header-Text-1,
+.header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Text-1 {
+  font-family: "Great Vibes", cursive;
+  font-size: 3.5rem;
+  padding: 0;
+  margin: 0;
+  color: #c49b63;
+}
+
+.header .header-Wrap .header-Text-Button-Wrap .header-Text-2,
+.header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Text-2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 5rem;
+  font-weight: 500;
+  width: 80%;
+  padding: 0;
+  margin: 0;
+  color: white;
+}
