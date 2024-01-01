@@ -17,6 +17,10 @@ body {
   position: fixed;
   width: 100%;
   top: 0;
+  border: solid rgba(109, 108, 108, 0.541) 1px;
+  border-left: none;
+  border-top: none;
+  border-right: none;
 }
 
 .navbar .nav-Wrap {
