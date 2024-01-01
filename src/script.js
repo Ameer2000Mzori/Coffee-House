@@ -26,18 +26,13 @@ var imageChangeLogic = function () {
     // our if else lader
     if (numCounter > 4) {
         numCounter = 0;
-        if (slideCount === 0) {
+        if (slideCount < 2) {
             slideCount++;
-            changeImg(slideCount);
-        }
-        else if (slideCount === 1) {
-            slideCount++;
-            changeImg(slideCount);
         }
         else {
             slideCount = 0;
-            changeImg(slideCount);
         }
+        changeImg(slideCount);
     }
 };
 // events
