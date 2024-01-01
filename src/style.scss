@@ -26,6 +26,7 @@ body {
   border-left: none;
   border-top: none;
   border-right: none;
+  z-index: 5;
 
   .nav-Wrap {
     width: 100%;
@@ -233,7 +234,7 @@ body {
       align-items: center;
       overflow: hidden;
       flex-wrap: wrap;
-      z-index: -5;
+      z-index: -15;
 
       .header-Imgs {
         width: 100%;
