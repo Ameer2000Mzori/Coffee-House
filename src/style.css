@@ -102,3 +102,14 @@ body {
   align-items: center;
   padding: 1rem;
 }
+
+.navbar .nav-Wrap .nav-Right .nav-Right-Wrap .nav-Right-Links ul li a {
+  font-family: "Josefin Sans", sans-serif;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+
+.navbar .nav-Wrap .nav-Right .nav-Right-Wrap .nav-Right-Links ul li a #nav-Icon {
+  font-size: 1.5rem;
+}

@@ -102,6 +102,17 @@ body {
               text-align: center;
               align-items: center;
               padding: 1rem;
+
+              a {
+                font-family: $fontTwo;
+                text-decoration: none;
+                color: black;
+                font-weight: 600;
+
+                #nav-Icon {
+                  font-size: 1.5rem;
+                }
+              }
             }
           }
         }
