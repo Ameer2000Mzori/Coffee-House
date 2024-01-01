@@ -278,13 +278,14 @@ body {
       gap: 10px;
 
       #slider-Buttons {
-        color: rgb(190, 189, 189);
+        color: rgb(87, 87, 87);
         font-size: 2rem;
         transition: all 300ms ease-in-out;
         border-radius: 50%;
+        cursor: pointer;
       }
 
-      #active {
+      .slider-Active {
         color: black;
         background-color: white;
         font-size: 2rem;

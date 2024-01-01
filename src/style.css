@@ -289,14 +289,15 @@ body {
 
 .header .header-Wrap .header-Slider-Buttons-Wrap #slider-Buttons,
 .header-Wrap .header-Wrap .header-Slider-Buttons-Wrap #slider-Buttons {
-  color: rgb(190, 189, 189);
+  color: rgb(87, 87, 87);
   font-size: 2rem;
   transition: all 300ms ease-in-out;
   border-radius: 50%;
+  cursor: pointer;
 }
 
-.header .header-Wrap .header-Slider-Buttons-Wrap #active,
-.header-Wrap .header-Wrap .header-Slider-Buttons-Wrap #active {
+.header .header-Wrap .header-Slider-Buttons-Wrap .slider-Active,
+.header-Wrap .header-Wrap .header-Slider-Buttons-Wrap .slider-Active {
   color: black;
   background-color: white;
   font-size: 2rem;
