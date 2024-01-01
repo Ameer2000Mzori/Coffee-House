@@ -233,5 +233,24 @@ body {
 
 .header .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap #header-Buttons,
 .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap #header-Buttons {
-  padding: 15px 35px;
+  padding: 20px 25px;
+}
+
+.header .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap .order-Now-Btn,
+.header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap .order-Now-Btn {
+  background-color: #c49b63;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  color: #fff;
+  transition: all 350ms ease-in-out;
+}
+
+.header .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap .order-Now-Btn:hover,
+.header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap .order-Now-Btn:hover {
+  cursor: pointer;
+  border: solid #c49b63 1px;
+  color: #c49b63;
+  background-color: transparent;
 }

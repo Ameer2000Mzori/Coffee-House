@@ -227,7 +227,24 @@ body {
         gap: 5px;
 
         #header-Buttons {
-          padding: 15px 35px;
+          padding: 20px 25px;
+        }
+
+        .order-Now-Btn {
+          background-color: #c49b63;
+          font-family: $fontTwo;
+          font-size: 1rem;
+          font-weight: 600;
+          border: none;
+          color: #fff;
+          transition: all 350ms ease-in-out;
+
+          &:hover {
+            cursor: pointer;
+            border: solid #c49b63 1px;
+            color: #c49b63;
+            background-color: transparent;
+          }
         }
       }
     }
