@@ -695,6 +695,11 @@ body {
 .menu .menu-Wrap .menu-Left .menu-Left-Wrap {
   width: 50%;
   height: 90%;
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  align-items: end;
+  justify-content: center;
 }
 
 .menu .menu-Wrap .menu-Right {
