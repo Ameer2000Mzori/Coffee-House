@@ -738,6 +738,14 @@ body {
   background-color: transparent;
   color: #c49b63;
   border: solid #c49b63 1px;
+  transition: all 250ms ease-in-out;
+}
+
+.menu .menu-Wrap .menu-Left .menu-Left-Wrap .menu-Left-Text-Wrap .menu-Left-Button:hover {
+  cursor: pointer;
+  font-weight: 600;
+  color: #2a2727;
+  background-color: #c49b63;
 }
 
 .menu .menu-Wrap .menu-Right {

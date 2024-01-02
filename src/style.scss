@@ -739,6 +739,14 @@ body {
             background-color: transparent;
             color: #c49b63;
             border: solid #c49b63 1px;
+            transition: all 250ms ease-in-out;
+
+            &:hover {
+              cursor: pointer;
+              font-weight: 600;
+              color: #2a2727;
+              background-color: #c49b63;
+            }
           }
         }
       }
