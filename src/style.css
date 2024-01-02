@@ -674,6 +674,19 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+  z-index: -2;
+}
+
+.menu::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.815);
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .menu .menu-Wrap {
