@@ -1028,6 +1028,16 @@ body {
       text-align: center;
       align-items: center;
       justify-content: center;
+
+      .about-Card {
+        height: 150px;
+        width: 150px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+      }
     }
   }
 }
