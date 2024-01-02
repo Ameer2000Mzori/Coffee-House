@@ -1038,3 +1038,35 @@ body {
   transition: all 250ms ease-in-out;
   cursor: pointer;
 }
+
+.about .about-Wrap .about-Cards-Wrap .about-Card .about-Card-Icon-Wrap #about-Card-Icon {
+  top: 0;
+  left: 0;
+  position: absolute;
+  font-size: 3rem;
+  color: transparent;
+  border: solid #c49b63 1px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-text-stroke: #c49b63 0.1rem;
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  transition: all 0ms ease-in-out;
+  transform: rotate(0deg);
+}
+
+.about .about-Wrap .about-Cards-Wrap .about-Card .about-Card-Icon-Wrap:hover {
+  transform: rotate(230deg);
+  z-index: 2;
+  background-color: #c49b63;
+}
+
+.about .about-Wrap .about-Cards-Wrap .about-Card .about-Card-Icon-Wrap:hover #about-Card-Icon {
+  -webkit-text-stroke: #1a1919 0.1rem;
+  transform: rotate(-230deg);
+  border: none;
+}
