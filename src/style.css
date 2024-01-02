@@ -412,3 +412,12 @@ body {
     font-size: 0.7rem;
   }
 }
+
+.haeder-Strip {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 15vh;
+}
