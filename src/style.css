@@ -907,3 +907,82 @@ body {
     width: 175px;
   }
 }
+
+@media screen and (max-width: 870px) {
+  .menu .menu-Wrap {
+    overflow: hidden;
+    gap: 0;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    height: 100%;
+  }
+
+  .menu .menu-Wrap .menu-Left {
+    overflow: hidden;
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .menu .menu-Wrap .menu-Left .menu-Left-Wrap {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+  }
+
+  .menu .menu-Wrap .menu-Left .menu-Left-Wrap .menu-Left-Text-Wrap {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .menu .menu-Wrap .menu-Left .menu-Left-Wrap .menu-Left-Text-Wrap .menu-Left-Text-1 {
+    font-size: 3.2rem;
+  }
+
+  .menu .menu-Wrap .menu-Left .menu-Left-Wrap .menu-Left-Text-Wrap .menu-Left-Text-2 {
+    font-size: 2rem;
+    width: 100%;
+    line-height: 1;
+  }
+
+  .menu .menu-Wrap .menu-Left .menu-Left-Wrap .menu-Left-Text-Wrap .menu-Left-Text-3 {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .menu .menu-Wrap .menu-Left .menu-Left-Wrap .menu-Left-Text-Wrap .menu-Left-Button {
+    font-size: 0.6rem;
+  }
+
+  .menu .menu-Wrap .menu-Right {
+    display: none;
+    width: 70%;
+  }
+
+  .menu .menu-Wrap .menu-Right .menu-Right-Wrap {
+    margin: 0.4rem;
+  }
+
+  .menu .menu-Wrap .menu-Right .menu-Right-Wrap #menu-Right-Imgs {
+    margin: 0.5rem;
+    height: 175px;
+    width: 175px;
+  }
+}
