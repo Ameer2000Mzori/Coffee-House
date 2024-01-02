@@ -423,13 +423,13 @@ body {
 }
 
 .haeder-Strip .header-Strip-Wrap {
-  width: 90%;
+  width: 80%;
   height: 90%;
   display: flex;
   flex-direction: row;
   text-align: center;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .haeder-Strip .header-Strip-Wrap .header-Strip-Card {
@@ -454,11 +454,20 @@ body {
   justify-content: flex-start;
 }
 
-.haeder-Strip .header-Strip-Wrap .header-Strip-Card .header-Strip-Card-Right .header-Strp-Card-Right-Text-1 {
+.haeder-Strip .header-Strip-Wrap .header-Strip-Card .header-Strip-Card-Right .header-Strip-Card-Right-Text-1 {
   color: white;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
   font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+.haeder-Strip .header-Strip-Wrap .header-Strip-Card .header-Strip-Card-Right .header-Strip-Card-Right-Text-2 {
+  color: rgb(139, 139, 139);
+  font-family: "Poppins", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 300;
   padding: 0;
   margin: 0;
 }
