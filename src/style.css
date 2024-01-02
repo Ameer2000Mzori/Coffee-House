@@ -431,3 +431,16 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.haeder-Strip .header-Strip-Wrap .header-Strip-Card {
+  display: flex;
+  height: 50%;
+}
+
+.haeder-Strip .header-Strip-Wrap .header-Strip-Card .header-Strip-Card-Left {
+  width: 20%;
+}
+
+.haeder-Strip .header-Strip-Wrap .header-Strip-Card .header-Strip-Card-Left #strip-Card-Icon {
+  color: #c49b63;
+}
