@@ -784,13 +784,14 @@ body {
       z-index: 4;
 
       .menu-Right-Wrap {
-        width: 80%;
+        width: 100%;
         height: 100%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         text-align: center;
         align-items: center;
+        justify-content: center;
         margin: 1rem;
         position: relative;
         z-index: 4;
@@ -813,4 +814,16 @@ body {
       }
     }
   }
+}
+
+@media screen and (max-width: 1440px) {
+  // 1440px
+}
+
+@media screen and (max-width: 1040px) {
+  // 1040px
+}
+
+@media screen and (max-width: 768px) {
+  // 768px
 }

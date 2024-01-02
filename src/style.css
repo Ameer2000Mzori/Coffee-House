@@ -781,13 +781,14 @@ body {
 }
 
 .menu .menu-Wrap .menu-Right .menu-Right-Wrap {
-  width: 80%;
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   text-align: center;
   align-items: center;
+  justify-content: center;
   margin: 1rem;
   position: relative;
   z-index: 4;
