@@ -544,3 +544,13 @@ body {
     display: none;
   }
 }
+
+.blog {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  background-color: #c49b63;
+}
