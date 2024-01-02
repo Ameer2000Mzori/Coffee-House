@@ -679,7 +679,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  z-index: -2;
+  z-index: 1;
 
   &::before {
     content: "";
@@ -689,7 +689,7 @@ body {
     background-color: rgba(0, 0, 0, 0.815);
     top: 0;
     left: 0;
-    z-index: -1;
+    z-index: 2;
   }
 
   .menu-Wrap {
@@ -701,6 +701,8 @@ body {
     align-items: center;
     justify-content: center;
     gap: 5rem;
+    position: relative;
+    z-index: 3;
 
     .menu-Left {
       width: 50%;
@@ -778,6 +780,8 @@ body {
       text-align: start;
       align-items: start;
       justify-content: center;
+      position: relative;
+      z-index: 4;
 
       .menu-Right-Wrap {
         width: 70%;
@@ -788,11 +792,23 @@ body {
         text-align: center;
         align-items: center;
         margin: 0.5rem;
+        position: relative;
+        z-index: 4;
 
         #menu-Right-Imgs {
           margin: 0.5rem;
           height: 220px;
           width: 220px;
+          object-fit: cover;
+          position: relative;
+          z-index: 5;
+          transition: all 500ms ease-in-out;
+
+          &:hover {
+            cursor: pointer;
+            overflow: hidden;
+            transform: scale(1.1);
+          }
         }
       }
     }
