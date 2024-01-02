@@ -702,6 +702,15 @@ body {
   justify-content: center;
 }
 
+.menu .menu-Wrap .menu-Left .menu-Left-Wrap .menu-Left-Text-Wrap .menu-Left-Text-1 {
+  font-family: "Great Vibes", cursive;
+  color: #c49b63;
+  font-size: 3.5rem;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
+}
+
 .menu .menu-Wrap .menu-Right {
   width: 50%;
   height: 100%;
