@@ -563,4 +563,15 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
+  gap: 30px;
+}
+
+.blog .blog-Wrap .blog-Card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 250px;
 }
