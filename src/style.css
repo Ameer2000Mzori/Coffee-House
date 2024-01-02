@@ -1069,3 +1069,13 @@ body {
   transform: rotate(-530deg);
   border: none;
 }
+
+.about .about-Wrap .about-Cards-Wrap .about-Card .about-Card-Text-1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 2.5rem;
+  padding: 0;
+  margin: 0;
+  line-height: 2;
+  font-weight: 400;
+  color: #c49b63;
+}
