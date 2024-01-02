@@ -1237,6 +1237,15 @@ body {
   line-height: 0.5;
 }
 
+.customers .customers-Wrap .customers-Top .customers-Top-Wrap .customers-Top-Text-3 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  font-family: "Josefin Sans", sans-serif;
+  color: #999;
+  width: 50%;
+  margin-top: 5rem;
+}
+
 .customers .customers-Wrap .customers-Bottom {
   width: 100%;
   height: 70%;
