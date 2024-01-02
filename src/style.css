@@ -1235,6 +1235,7 @@ body {
   padding: 0;
   margin: 0;
   line-height: 0.5;
+  margin-bottom: 3rem;
 }
 
 .customers .customers-Wrap .customers-Top .customers-Top-Wrap .customers-Top-Text-3 {
@@ -1243,7 +1244,6 @@ body {
   font-family: "Josefin Sans", sans-serif;
   color: #999;
   width: 50%;
-  margin-top: 5rem;
 }
 
 .customers .customers-Wrap .customers-Bottom {
