@@ -1021,11 +1021,20 @@ body {
 }
 
 .about .about-Wrap .about-Cards-Wrap .about-Card {
-  height: 150px;
+  height: 250px;
   width: 150px;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
+}
+
+.about .about-Wrap .about-Cards-Wrap .about-Card .about-Card-Icon-Wrap {
+  background-color: transparent;
+  position: relative;
+  height: 75px;
+  width: 75px;
+  transition: all 250ms ease-in-out;
+  cursor: pointer;
 }
