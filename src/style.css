@@ -662,3 +662,12 @@ body {
     font-size: 0.9rem;
   }
 }
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+}
