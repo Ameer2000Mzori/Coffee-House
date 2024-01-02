@@ -571,9 +571,9 @@ body {
   flex-direction: column;
   text-align: center;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 350px;
-  height: 250px;
+  height: 100%;
 }
 
 .blog .blog-Wrap .blog-Card #blog-Card-Icon {
@@ -583,8 +583,16 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 15px;
-  font-size: 4rem;
-  border: solid #2a2727 1px;
+  font-size: 3rem;
+  border: solid rgba(42, 39, 39, 0.6705882353) 2px;
   color: transparent;
   -webkit-text-stroke: 0.2rem #2a2727;
+}
+
+.blog .blog-Wrap .blog-Card .blog-Card-Text-1,
+.blog .blog-Wrap .blog-Card .blog-Card-Text-2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  padding: 0;
+  margin: 0;
 }

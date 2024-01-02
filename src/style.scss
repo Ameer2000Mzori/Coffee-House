@@ -573,9 +573,9 @@ body {
       flex-direction: column;
       text-align: center;
       align-items: center;
-      justify-content: center;
+      justify-content: space-evenly;
       width: 350px;
-      height: 250px;
+      height: 100%;
 
       #blog-Card-Icon {
         text-align: center;
@@ -584,10 +584,18 @@ body {
         flex-direction: column;
         justify-content: center;
         padding: 15px;
-        font-size: 4rem;
-        border: solid #2a2727 1px;
+        font-size: 3rem;
+        border: solid #2a2727ab 2px;
         color: transparent;
         -webkit-text-stroke: 0.2rem #2a2727;
+      }
+
+      .blog-Card-Text-1,
+      .blog-Card-Text-2 {
+        font-family: $fontThree;
+        font-weight: 300;
+        padding: 0;
+        margin: 0;
       }
     }
   }
