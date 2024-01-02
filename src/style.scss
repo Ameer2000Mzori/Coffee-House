@@ -1043,7 +1043,7 @@ body {
           position: relative;
           height: 75px;
           width: 75px;
-          transition: all 250ms ease-in-out;
+          transition: all 150ms ease-in-out;
           cursor: pointer;
 
           #about-Card-Icon {
@@ -1063,17 +1063,16 @@ body {
             width: 100%;
             height: 100%;
             transition: all 0ms ease-in-out;
-            transform: rotate(0deg);
           }
 
           &:hover {
-            transform: rotate(230deg);
+            transform: rotate(530deg);
             z-index: 2;
             background-color: #c49b63;
 
             #about-Card-Icon {
               -webkit-text-stroke: #1a1919 0.1rem;
-              transform: rotate(-230deg);
+              transform: rotate(-530deg);
               border: none;
             }
           }
