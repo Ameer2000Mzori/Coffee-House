@@ -22,6 +22,7 @@ body {
   border-top: none;
   border-right: none;
   z-index: 5;
+  transition: all 500ms ease-in-out;
 }
 
 .navbar .nav-Wrap {
@@ -136,6 +137,11 @@ body {
   text-decoration: none;
   font-weight: 600;
   color: rgb(143, 123, 9);
+}
+
+.navbar.active {
+  height: 8vh;
+  color: black;
 }
 
 @media screen and (max-width: 1440px) {

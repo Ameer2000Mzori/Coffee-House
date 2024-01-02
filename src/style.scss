@@ -27,6 +27,7 @@ body {
   border-top: none;
   border-right: none;
   z-index: 5;
+  transition: all 500ms ease-in-out;
 
   .nav-Wrap {
     width: 100%;
@@ -143,6 +144,11 @@ body {
       }
     }
   }
+}
+
+.navbar.active {
+  height: 8vh;
+  color: black;
 }
 //  NavBar responsvness
 @media screen and (max-width: 1440px) {
