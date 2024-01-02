@@ -418,4 +418,14 @@ body {
   align-items: center;
   justify-content: center;
   height: 15vh;
+
+  .header-Strip-Wrap {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
 }
