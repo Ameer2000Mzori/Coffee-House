@@ -1187,6 +1187,17 @@ body {
   position: relative;
   z-index: 1;
 
+  &::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.815);
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+
   .customers-Wrap {
     display: flex;
     flex-direction: column;
