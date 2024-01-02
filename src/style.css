@@ -575,3 +575,16 @@ body {
   width: 350px;
   height: 250px;
 }
+
+.blog .blog-Wrap .blog-Card #blog-Card-Icon {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  font-size: 4rem;
+  border: solid #2a2727 1px;
+  color: transparent;
+  -webkit-text-stroke: 0.2rem #2a2727;
+}
