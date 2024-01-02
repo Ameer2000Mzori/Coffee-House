@@ -500,3 +500,47 @@ body {
     font-size: 0.7rem;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .header-Strip .header-Strip-Wrap {
+    width: 80%;
+    height: 80%;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-Strip .header-Strip-Wrap .header-Strip-Card {
+    display: flex;
+    height: 10%;
+    width: 90%;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-Strip .header-Strip-Wrap .header-Strip-Card .header-Strip-Card-Left {
+    width: 20%;
+  }
+
+  .header-Strip .header-Strip-Wrap .header-Strip-Card .header-Strip-Card-Left #strip-Card-Icon {
+    color: #c49b63;
+    font-size: 1.5rem;
+  }
+
+  .header-Strip .header-Strip-Wrap .header-Strip-Card .header-Strip-Card-Right {
+    width: 60%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .header-Strip .header-Strip-Wrap .header-Strip-Card .header-Strip-Card-Right .header-Strip-Card-Right-Text-1 {
+    font-size: 0.9rem;
+  }
+
+  .header-Strip .header-Strip-Wrap .header-Strip-Card .header-Strip-Card-Right .header-Strip-Card-Right-Text-2 {
+    display: none;
+  }
+}
