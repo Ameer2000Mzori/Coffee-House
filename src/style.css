@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-
 body {
   padding: 0;
   margin: 0;
@@ -23,7 +22,6 @@ body {
   border-right: none;
   z-index: 5;
 }
-
 .navbar .nav-Wrap {
   width: 100%;
   height: 100%;
@@ -33,7 +31,6 @@ body {
   justify-content: center;
   flex-direction: row;
 }
-
 .navbar .nav-Wrap .nav-Left {
   width: 50%;
   height: 100%;
@@ -43,12 +40,10 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-
 .navbar .nav-Wrap .nav-Left .nav-Left-Wrap {
   width: 200px;
   height: 100px;
 }
-
 .navbar .nav-Wrap .nav-Left .nav-Left-Wrap .nav-Left-Text-Icon-Wrap {
   height: 100%;
   width: 100%;
@@ -59,17 +54,14 @@ body {
   flex-direction: row;
   color: white;
 }
-
 .navbar .nav-Wrap .nav-Left .nav-Left-Wrap .nav-Left-Text-Icon-Wrap #nav-Icon {
   color: white;
   font-size: 3rem;
 }
-
 .navbar .nav-Wrap .nav-Left .nav-Left-Wrap .nav-Left-Text-Wrap {
   padding: 0;
   margin: 0;
 }
-
 .navbar .nav-Wrap .nav-Left .nav-Left-Wrap .nav-Left-Text-Wrap .nav-Left-Text-1,
 .navbar .nav-Wrap .nav-Left .nav-Left-Wrap .nav-Left-Text-Wrap .nav-Left-Text-2 {
   padding: 0;
@@ -77,7 +69,6 @@ body {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
-
 .navbar .nav-Wrap .nav-Right {
   width: 50%;
   height: 100%;
@@ -87,7 +78,6 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-
 .navbar .nav-Wrap .nav-Right .nav-Right-Wrap {
   width: 100%;
   height: 100%;
@@ -97,7 +87,6 @@ body {
   justify-content: flex-start;
   flex-direction: row;
 }
-
 .navbar .nav-Wrap .nav-Right .nav-Right-Wrap .nav-Right-Links ul {
   display: flex;
   flex-direction: row;
@@ -105,7 +94,6 @@ body {
   padding: 0;
   margin: 0;
 }
-
 .navbar .nav-Wrap .nav-Right .nav-Right-Wrap .nav-Right-Links ul li {
   display: flex;
   flex-direction: column;
@@ -114,7 +102,6 @@ body {
   align-items: center;
   padding: 1rem;
 }
-
 .navbar .nav-Wrap .nav-Right .nav-Right-Wrap .nav-Right-Links ul li a {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
@@ -122,15 +109,12 @@ body {
   font-weight: 500;
   transition: all 250ms ease-in-out;
 }
-
 .navbar .nav-Wrap .nav-Right .nav-Right-Wrap .nav-Right-Links ul li a #nav-Icon {
   font-size: 1.5rem;
 }
-
 .navbar .nav-Wrap .nav-Right .nav-Right-Wrap .nav-Right-Links ul li a:hover {
   color: rgb(143, 123, 9);
 }
-
 .navbar .nav-Wrap .nav-Right .nav-Right-Wrap .nav-Right-Links ul li .active {
   font-family: "Poppins", sans-serif;
   text-decoration: none;
@@ -143,30 +127,24 @@ body {
     align-items: start;
     justify-content: flex-start;
   }
-
   .navbar .nav-Wrap .nav-Left {
     width: 30%;
   }
 }
-
 @media screen and (max-width: 850px) {
   .navbar .nav-Wrap {
     align-items: center;
     justify-content: center;
   }
-
   .navbar .nav-Wrap .nav-Left {
     display: none;
   }
-
   .navbar .nav-Wrap .nav-Right {
     width: 100%;
   }
-
   .navbar .nav-Wrap .nav-Right .nav-Right-Wrap {
     justify-content: center;
   }
-
   .navbar .nav-Wrap .nav-Right .nav-Right-Wrap .nav-Right-Links ul {
     display: flex;
     flex-direction: row;
@@ -174,7 +152,6 @@ body {
     padding: 0;
     margin: 0;
   }
-
   .navbar .nav-Wrap .nav-Right .nav-Right-Wrap .nav-Right-Links ul li {
     display: flex;
     flex-direction: column;
@@ -183,16 +160,13 @@ body {
     align-items: center;
     padding: 0.3rem;
   }
-
   .navbar .nav-Wrap .nav-Right .nav-Right-Wrap .nav-Right-Links ul li a {
     font-size: 0.8rem;
   }
-
   .navbar .nav-Wrap .nav-Right .nav-Right-Wrap .nav-Right-Links ul li a #nav-Icon {
     font-size: 1.5rem;
   }
 }
-
 .header,
 .header-Wrap {
   display: flex;
@@ -203,13 +177,11 @@ body {
   height: 80vh;
   position: relative;
 }
-
 .header .header-Wrap,
 .header-Wrap .header-Wrap {
   height: 100%;
   width: 100%;
 }
-
 .header .header-Wrap .images-Wrap,
 .header-Wrap .header-Wrap .images-Wrap {
   position: absolute;
@@ -225,7 +197,6 @@ body {
   flex-wrap: wrap;
   z-index: -15;
 }
-
 .header .header-Wrap .images-Wrap .images-Holder,
 .header-Wrap .header-Wrap .images-Wrap .images-Holder {
   display: flex;
@@ -237,7 +208,6 @@ body {
   height: 100%;
   transition: all 1000ms ease-in-out;
 }
-
 .header .header-Wrap .images-Wrap .header-Imgs,
 .header-Wrap .header-Wrap .images-Wrap .header-Imgs {
   width: 100%;
@@ -245,7 +215,6 @@ body {
   object-fit: cover;
   transition: all 500ms ease-in-out;
 }
-
 .header .header-Wrap .header-Text-Button-Wrap,
 .header-Wrap .header-Wrap .header-Text-Button-Wrap {
   display: flex;
@@ -254,7 +223,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-
 .header .header-Wrap .header-Text-Button-Wrap .header-Text-1,
 .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Text-1 {
   font-family: "Great Vibes", cursive;
@@ -264,7 +232,6 @@ body {
   margin: 0;
   color: #c49b63;
 }
-
 .header .header-Wrap .header-Text-Button-Wrap .header-Text-2,
 .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Text-2 {
   font-family: "Josefin Sans", sans-serif;
@@ -278,7 +245,6 @@ body {
   letter-spacing: 0.2rem;
   width: 50%;
 }
-
 .header .header-Wrap .header-Text-Button-Wrap .header-Text-3,
 .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Text-3 {
   font-family: "Josefin Sans", sans-serif;
@@ -287,7 +253,6 @@ body {
   width: 50%;
   color: white;
 }
-
 .header .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap,
 .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap {
   width: 50%;
@@ -299,12 +264,10 @@ body {
   justify-content: center;
   gap: 5px;
 }
-
 .header .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap #header-Buttons,
 .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap #header-Buttons {
   padding: 20px 25px;
 }
-
 .header .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap .order-Now-Btn,
 .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap .order-Now-Btn {
   background-color: #c49b63;
@@ -315,7 +278,6 @@ body {
   color: #fff;
   transition: all 350ms ease-in-out;
 }
-
 .header .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap .order-Now-Btn:hover,
 .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap .order-Now-Btn:hover {
   cursor: pointer;
@@ -323,7 +285,6 @@ body {
   color: #c49b63;
   background-color: transparent;
 }
-
 .header .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap .view-More-Btn,
 .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap .view-More-Btn {
   background-color: transparent;
@@ -334,7 +295,6 @@ body {
   border: solid white 1px;
   transition: all 350ms ease-in-out;
 }
-
 .header .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap .view-More-Btn:hover,
 .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap .view-More-Btn:hover {
   cursor: pointer;
@@ -342,7 +302,6 @@ body {
   color: white;
   background-color: #c49b63;
 }
-
 .header .header-Wrap .header-Slider-Buttons-Wrap,
 .header-Wrap .header-Wrap .header-Slider-Buttons-Wrap {
   position: absolute;
@@ -355,7 +314,6 @@ body {
   align-items: center;
   gap: 10px;
 }
-
 .header .header-Wrap .header-Slider-Buttons-Wrap #slider-Buttons,
 .header-Wrap .header-Wrap .header-Slider-Buttons-Wrap #slider-Buttons {
   color: rgb(87, 87, 87);
@@ -364,7 +322,6 @@ body {
   border-radius: 50%;
   cursor: pointer;
 }
-
 .header .header-Wrap .header-Slider-Buttons-Wrap .slider-Active,
 .header-Wrap .header-Wrap .header-Slider-Buttons-Wrap .slider-Active {
   color: black;
@@ -379,41 +336,34 @@ body {
   .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Text-1 {
     font-size: 2.3rem;
   }
-
   .header .header-Wrap .header-Text-Button-Wrap .header-Text-2,
   .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Text-2 {
     font-size: 1.8rem;
     width: 100%;
   }
-
   .header .header-Wrap .header-Text-Button-Wrap .header-Text-3,
   .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Text-3 {
     font-size: 0.8rem;
     width: 80%;
   }
-
   .header .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap,
   .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap {
     width: 90%;
   }
-
   .header .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap #header-Buttons,
   .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap #header-Buttons {
     padding: 13px 20px;
   }
-
   .header .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap .order-Now-Btn,
   .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap .order-Now-Btn {
     font-size: 0.7rem;
   }
-
   .header .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap .view-More-Btn,
   .header-Wrap .header-Wrap .header-Text-Button-Wrap .header-Buttons-Wrap .view-More-Btn {
     font-size: 0.7rem;
   }
 }
-
-.haeder-Strip {
+.header-Strip {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -421,8 +371,7 @@ body {
   justify-content: center;
   height: 15vh;
 }
-
-.haeder-Strip .header-Strip-Wrap {
+.header-Strip .header-Strip-Wrap {
   width: 80%;
   height: 90%;
   display: flex;
@@ -431,30 +380,25 @@ body {
   align-items: center;
   justify-content: space-evenly;
 }
-
-.haeder-Strip .header-Strip-Wrap .header-Strip-Card {
+.header-Strip .header-Strip-Wrap .header-Strip-Card {
   display: flex;
   height: 50%;
 }
-
-.haeder-Strip .header-Strip-Wrap .header-Strip-Card .header-Strip-Card-Left {
+.header-Strip .header-Strip-Wrap .header-Strip-Card .header-Strip-Card-Left {
   width: 20%;
 }
-
-.haeder-Strip .header-Strip-Wrap .header-Strip-Card .header-Strip-Card-Left #strip-Card-Icon {
+.header-Strip .header-Strip-Wrap .header-Strip-Card .header-Strip-Card-Left #strip-Card-Icon {
   color: #c49b63;
   font-size: 1.4rem;
 }
-
-.haeder-Strip .header-Strip-Wrap .header-Strip-Card .header-Strip-Card-Right {
+.header-Strip .header-Strip-Wrap .header-Strip-Card .header-Strip-Card-Right {
   display: flex;
   flex-direction: column;
   text-align: start;
   align-items: start;
   justify-content: flex-start;
 }
-
-.haeder-Strip .header-Strip-Wrap .header-Strip-Card .header-Strip-Card-Right .header-Strip-Card-Right-Text-1 {
+.header-Strip .header-Strip-Wrap .header-Strip-Card .header-Strip-Card-Right .header-Strip-Card-Right-Text-1 {
   color: white;
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
@@ -462,8 +406,7 @@ body {
   padding: 0;
   margin: 0;
 }
-
-.haeder-Strip .header-Strip-Wrap .header-Strip-Card .header-Strip-Card-Right .header-Strip-Card-Right-Text-2 {
+.header-Strip .header-Strip-Wrap .header-Strip-Card .header-Strip-Card-Right .header-Strip-Card-Right-Text-2 {
   color: rgb(139, 139, 139);
   font-family: "Poppins", sans-serif;
   font-size: 0.9rem;
@@ -471,3 +414,29 @@ body {
   padding: 0;
   margin: 0;
 }
+
+@media screen and (max-width: 1100px) {
+  .header-Strip .header-Strip-Wrap {
+    width: 100%;
+    height: 90%;
+  }
+  .header-Strip .header-Strip-Wrap .header-Strip-Card {
+    display: flex;
+    height: 50%;
+  }
+  .header-Strip .header-Strip-Wrap .header-Strip-Card .header-Strip-Card-Left {
+    width: 20%;
+  }
+  .header-Strip .header-Strip-Wrap .header-Strip-Card .header-Strip-Card-Left #strip-Card-Icon {
+    color: #c49b63;
+    font-size: 1rem;
+  }
+  .header-Strip .header-Strip-Wrap .header-Strip-Card .header-Strip-Card-Right .header-Strip-Card-Right-Text-1 {
+    font-size: 0.8rem;
+  }
+  .header-Strip .header-Strip-Wrap .header-Strip-Card .header-Strip-Card-Right .header-Strip-Card-Right-Text-2 {
+    font-size: 0.7rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
