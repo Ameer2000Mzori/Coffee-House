@@ -683,5 +683,23 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
+
+    .menu-Left {
+      width: 40%;
+      height: 100%;
+
+      .menu-Left-Wrap {
+        //
+      }
+    }
+
+    .menu-Right {
+      width: 50%;
+      height: 100%;
+
+      .menu-Right-Wrap {
+        //
+      }
+    }
   }
 }

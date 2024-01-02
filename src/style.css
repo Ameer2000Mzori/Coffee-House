@@ -681,3 +681,13 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.menu .menu-Wrap .menu-Left {
+  width: 40%;
+  height: 100%;
+}
+
+.menu .menu-Wrap .menu-Right {
+  width: 50%;
+  height: 100%;
+}
