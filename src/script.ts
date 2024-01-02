@@ -1,3 +1,11 @@
+// selecting elements Navbar
+
+// gelobal variables
+
+// functions
+
+// events
+
 // selecting elements Header Buttons
 const sliderButtons = document.querySelectorAll("#slider-Buttons");
 const imagesHolderEl: any = document.getElementsByClassName("images-Holder")[0];
