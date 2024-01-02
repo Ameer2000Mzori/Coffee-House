@@ -596,3 +596,63 @@ body {
   padding: 0;
   margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .blog {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    background-color: #c49b63;
+  }
+
+  .blog .blog-Wrap {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+
+  .blog .blog-Wrap .blog-Card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 33%;
+    gap: 5px;
+  }
+
+  .blog .blog-Wrap .blog-Card #blog-Card-Icon {
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    border: solid rgba(42, 39, 39, 0.6705882353) 1px;
+    color: transparent;
+    -webkit-text-stroke: 0.1rem #2a2727;
+    padding: 0;
+    margin: 0;
+  }
+
+  .blog .blog-Wrap .blog-Card .blog-Card-Text-1,
+  .blog .blog-Wrap .blog-Card .blog-Card-Text-2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+    width: 80%;
+    font-size: 0.9rem;
+  }
+}
