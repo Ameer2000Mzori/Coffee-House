@@ -1119,3 +1119,38 @@ body {
     font-size: 1rem;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .about {
+    height: 90vh;
+  }
+
+  .about .about-Wrap .about-Cards-Wrap {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about .about-Wrap .about-Cards-Wrap .about-Card {
+    height: 230px;
+    width: 130px;
+  }
+
+  .about .about-Wrap .about-Cards-Wrap .about-Card .about-Card-Icon-Wrap {
+    height: 70px;
+    width: 70px;
+  }
+
+  .about .about-Wrap .about-Cards-Wrap .about-Card .about-Card-Icon-Wrap #about-Card-Icon {
+    font-size: 2.2rem;
+  }
+
+  .about .about-Wrap .about-Cards-Wrap .about-Card .about-Card-Text-1 {
+    font-size: 1.5rem;
+  }
+
+  .about .about-Wrap .about-Cards-Wrap .about-Card .about-Card-Text-2 {
+    font-size: 0.8rem;
+  }
+}
