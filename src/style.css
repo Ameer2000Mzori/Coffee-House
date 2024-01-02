@@ -1154,3 +1154,12 @@ body {
     font-size: 0.8rem;
   }
 }
+
+.customers {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
