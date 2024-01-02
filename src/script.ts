@@ -1,11 +1,17 @@
 // selecting elements Navbar
-
-// gelobal variables
+const navbarEl = document.getElementsByClassName("navbar")[0];
 
 // functions
+const scrollNavbar = () => {
+  if (window.scrollY > 100) {
+  }
+};
 
 // events
-
+window.addEventListener("scroll", scrollNavbar);
+//
+//
+//
 // selecting elements Header Buttons
 const sliderButtons = document.querySelectorAll("#slider-Buttons");
 const imagesHolderEl: any = document.getElementsByClassName("images-Holder")[0];

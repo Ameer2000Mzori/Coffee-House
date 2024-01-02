@@ -1,7 +1,15 @@
 // selecting elements Navbar
-// gelobal variables
+var navbarEl = document.getElementsByClassName("navbar")[0];
 // functions
+var scrollNavbar = function () {
+    if (window.scrollY > 100) {
+    }
+};
 // events
+window.addEventListener("scroll", scrollNavbar);
+//
+//
+//
 // selecting elements Header Buttons
 var sliderButtons = document.querySelectorAll("#slider-Buttons");
 var imagesHolderEl = document.getElementsByClassName("images-Holder")[0];
