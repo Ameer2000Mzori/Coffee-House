@@ -1180,4 +1180,14 @@ body {
   align-items: center;
   justify-content: center;
   height: 80vh;
+
+  .customers-Wrap {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
 }
