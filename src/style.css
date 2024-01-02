@@ -809,3 +809,51 @@ body {
   overflow: hidden;
   transform: scale(1.1);
 }
+
+@media screen and (max-width: 1545px) {
+  .menu .menu-Wrap {
+    gap: 4rem;
+  }
+
+  .menu .menu-Wrap .menu-Left {
+    width: 30%;
+  }
+
+  .menu .menu-Wrap .menu-Left .menu-Left-Wrap {
+    width: 100%;
+  }
+
+  .menu .menu-Wrap .menu-Left .menu-Left-Wrap .menu-Left-Text-Wrap {
+    width: 100%;
+  }
+
+  .menu .menu-Wrap .menu-Left .menu-Left-Wrap .menu-Left-Text-Wrap .menu-Left-Text-1 {
+    font-size: 3.2rem;
+  }
+
+  .menu .menu-Wrap .menu-Left .menu-Left-Wrap .menu-Left-Text-Wrap .menu-Left-Text-2 {
+    font-size: 2.9rem;
+  }
+
+  .menu .menu-Wrap .menu-Left .menu-Left-Wrap .menu-Left-Text-Wrap .menu-Left-Text-3 {
+    font-size: 1rem;
+  }
+
+  .menu .menu-Wrap .menu-Left .menu-Left-Wrap .menu-Left-Text-Wrap .menu-Left-Button {
+    font-size: 0.7rem;
+  }
+
+  .menu .menu-Wrap .menu-Right {
+    width: 70%;
+  }
+
+  .menu .menu-Wrap .menu-Right .menu-Right-Wrap {
+    margin: 0.5rem;
+  }
+
+  .menu .menu-Wrap .menu-Right .menu-Right-Wrap #menu-Right-Imgs {
+    margin: 0.5rem;
+    height: 225px;
+    width: 225px;
+  }
+}
