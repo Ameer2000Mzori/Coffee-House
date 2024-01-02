@@ -1079,3 +1079,14 @@ body {
   font-weight: 400;
   color: #c49b63;
 }
+
+.about .about-Wrap .about-Cards-Wrap .about-Card .about-Card-Text-2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1.4rem;
+  width: 120%;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  font-weight: 400;
+  color: #999;
+}
