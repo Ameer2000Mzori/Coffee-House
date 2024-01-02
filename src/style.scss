@@ -1102,9 +1102,40 @@ body {
     }
   }
 }
+
 @media screen and (max-width: 1000px) {
-  // 1000px
+  .about {
+    .about-Wrap {
+      .about-Cards-Wrap {
+        width: 90%;
+        height: 90%;
+
+        .about-Card {
+          height: 230px;
+          width: 130px;
+
+          .about-Card-Icon-Wrap {
+            height: 70px;
+            width: 70px;
+
+            #about-Card-Icon {
+              font-size: 2.8rem;
+            }
+          }
+
+          .about-Card-Text-1 {
+            font-size: 2rem;
+          }
+
+          .about-Card-Text-2 {
+            font-size: 1rem;
+          }
+        }
+      }
+    }
+  }
 }
+
 @media screen and (max-width: 768px) {
   // 768px
 }
