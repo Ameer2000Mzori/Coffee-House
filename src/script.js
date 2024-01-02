@@ -2,7 +2,11 @@
 var navbarEl = document.getElementsByClassName("navbar")[0];
 // functions
 var scrollNavbar = function () {
-    if (window.scrollY > 100) {
+    if (window.scrollY > navbarEl.clientHeight - 20) {
+        navbarEl.classList.add("active");
+    }
+    else {
+        navbarEl.classList.remove("active");
     }
 };
 // events
