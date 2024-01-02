@@ -557,4 +557,14 @@ body {
   justify-content: center;
   height: 40vh;
   background-color: #c49b63;
+
+  .blog-Wrap {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
 }
