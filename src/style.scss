@@ -867,9 +867,57 @@ body {
 }
 
 @media screen and (max-width: 1040px) {
-  // 1040px
+  .menu {
+    .menu-Wrap {
+      gap: 4rem;
+
+      .menu-Left {
+        width: 40%;
+
+        .menu-Left-Wrap {
+          width: 100%;
+
+          .menu-Left-Text-Wrap {
+            width: 100%;
+
+            .menu-Left-Text-1 {
+              font-size: 3.2rem;
+            }
+
+            .menu-Left-Text-2 {
+              font-size: 2.5rem;
+              width: 100%;
+            }
+
+            .menu-Left-Text-3 {
+              width: 100%;
+              font-size: 0.9rem;
+            }
+
+            .menu-Left-Button {
+              font-size: 0.6rem;
+            }
+          }
+        }
+      }
+
+      .menu-Right {
+        width: 70%;
+
+        .menu-Right-Wrap {
+          margin: 0.4rem;
+
+          #menu-Right-Imgs {
+            margin: 0.5rem;
+            height: 175px;
+            width: 175px;
+          }
+        }
+      }
+    }
+  }
 }
 
-@media screen and (max-width: 768px) {
-  // 768px
+@media screen and (max-width: 870px) {
+  // 870px
 }
