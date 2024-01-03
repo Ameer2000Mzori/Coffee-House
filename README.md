@@ -24,6 +24,9 @@
 
 ![alt text](./sample/1.png)
 ![alt text](./sample/2.png)
+![alt text](./sample/3.png)
+![alt text](./sample/4.png)
+![alt text](./sample/5.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -61,7 +64,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://ameer2000mzori.github.io/awesomebooks/)
+- [Live Demo Link](https://ameer2000mzori.github.io/Coffee-House/src/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
