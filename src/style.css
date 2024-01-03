@@ -1505,3 +1505,8 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.contact .contact-Wrap .contact-Left {
+  width: 50%;
+  height: 100%;
+}
