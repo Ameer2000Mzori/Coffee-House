@@ -1556,8 +1556,8 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  align-items: start;
-  justify-content: start;
+  align-items: center;
+  justify-content: center;
 }
 
 .contact .contact-Wrap .contact-Right .contact-Right-Wrap .contact-Right-Form-Wrap #text-Inputs-Id {
@@ -1568,7 +1568,7 @@ body {
   border-left: none;
   border-right: none;
   border-top: none;
-  height: 45px;
+  height: 40px;
   outline: none;
   font-family: "Josefin Sans", sans-serif;
   font-size: 1rem;
@@ -1593,7 +1593,17 @@ body {
   font-size: 1rem;
 }
 
-.contact .contact-Wrap .contact-Right .contact-Right-Wrap .contact-Right-Form-Wrap .input-Appointment-Btn {
-  height: 20px;
+.contact .contact-Wrap .contact-Right .contact-Right-Wrap .contact-Right-Form-Wrap .input-Button-Wrap {
+  width: 500px;
+  height: 60px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contact .contact-Wrap .contact-Right .contact-Right-Wrap .contact-Right-Form-Wrap .input-Button-Wrap .input-Appointment-Btn {
+  height: 40px;
   width: 400px;
 }

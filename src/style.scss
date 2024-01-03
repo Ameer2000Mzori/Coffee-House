@@ -1588,8 +1588,8 @@ body {
           display: flex;
           flex-direction: column;
           text-align: center;
-          align-items: start;
-          justify-content: start;
+          align-items: center;
+          justify-content: center;
 
           #text-Inputs-Id {
             width: 450px;
@@ -1599,7 +1599,7 @@ body {
             border-left: none;
             border-right: none;
             border-top: none;
-            height: 45px;
+            height: 40px;
             outline: none;
             font-family: $fontTwo;
             font-size: 1rem;
@@ -1624,9 +1624,19 @@ body {
             }
           }
 
-          .input-Appointment-Btn {
-            height: 20px;
-            width: 400px;
+          .input-Button-Wrap {
+            width: 500px;
+            height: 60px;
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .input-Appointment-Btn {
+              height: 40px;
+              width: 400px;
+            }
           }
         }
       }
