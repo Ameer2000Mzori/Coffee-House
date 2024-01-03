@@ -1739,3 +1739,14 @@ body {
     font-weight: 400;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    height: 10vh;
+
+    .footer-Text-1 {
+      font-size: 0.9rem;
+      font-weight: 300;
+    }
+  }
+}
