@@ -1680,3 +1680,20 @@ body {
     font-size: 0.9rem;
   }
 }
+
+.footer {
+  height: 15vh;
+  background-color: #2a2727;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .footer-Text-1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4rem;
+  color: white;
+  font-weight: 400;
+}

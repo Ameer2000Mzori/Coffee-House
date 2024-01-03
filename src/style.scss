@@ -1722,3 +1722,20 @@ body {
     }
   }
 }
+// footer
+.footer {
+  height: 15vh;
+  background-color: #2a2727;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+  .footer-Text-1 {
+    font-family: $fontOne;
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 400;
+  }
+}
