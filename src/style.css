@@ -1682,7 +1682,7 @@ body {
 }
 
 .footer {
-  height: 15vh;
+  height: 10vh;
   background-color: #2a2727;
   text-align: center;
   align-items: center;
@@ -1695,7 +1695,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 1.4rem;
   color: white;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 @media screen and (max-width: 768px) {
