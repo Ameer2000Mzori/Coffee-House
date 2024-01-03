@@ -1573,6 +1573,15 @@ body {
         align-items: center;
         justify-content: center;
 
+        .contact-Right-Text-1 {
+          font-size: 2.5rem;
+          font-weight: 400;
+          width: 80%;
+          text-align: start;
+          font-family: $fontThree;
+          color: #fff;
+        }
+
         .contact-Right-Form-Wrap {
           width: 80%;
           height: 60%;
