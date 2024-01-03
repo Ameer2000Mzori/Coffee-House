@@ -1495,3 +1495,13 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.contact .contact-Wrap {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
