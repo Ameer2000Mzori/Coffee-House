@@ -1604,6 +1604,24 @@ body {
             font-family: $fontTwo;
             font-size: 1rem;
             padding: 0;
+
+            &::placeholder {
+              color: white;
+              font-family: $fontTwo;
+              font-size: 1rem;
+            }
+
+            &:active {
+              color: white;
+              font-family: $fontTwo;
+              font-size: 1rem;
+            }
+
+            &:valid {
+              color: white;
+              font-family: $fontTwo;
+              font-size: 1rem;
+            }
           }
         }
       }
