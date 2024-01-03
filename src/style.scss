@@ -1544,5 +1544,20 @@ body {
       width: 50%;
       height: 100%;
     }
+
+    .contact-Right {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      height: 100%;
+
+      .contact-Right-Wrap {
+        height: 80%;
+        width: 80%;
+      }
+    }
   }
 }
