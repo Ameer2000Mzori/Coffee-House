@@ -1329,3 +1329,7 @@ body {
 .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap #customer-Card-2 {
   height: 75%;
 }
+
+.customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card.card-Active {
+  background-color: #b48d57;
+}
