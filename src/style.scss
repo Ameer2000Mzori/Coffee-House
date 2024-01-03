@@ -1590,6 +1590,21 @@ body {
           text-align: center;
           align-items: center;
           justify-content: center;
+
+          #text-Inputs-Id {
+            width: 400px;
+            margin: 5px;
+            background-color: transparent;
+            border: solid #2a2727 2px;
+            border-left: none;
+            border-right: none;
+            border-top: none;
+            height: 200px;
+            outline: none;
+            font-family: $fontTwo;
+            font-size: 1rem;
+            padding: 0;
+          }
         }
       }
     }

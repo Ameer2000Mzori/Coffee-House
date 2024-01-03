@@ -1559,3 +1559,18 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.contact .contact-Wrap .contact-Right .contact-Right-Wrap .contact-Right-Form-Wrap #text-Inputs-Id {
+  width: 400px;
+  margin: 5px;
+  background-color: transparent;
+  border: solid #2a2727 2px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  height: 200px;
+  outline: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 1rem;
+  padding: 0;
+}
