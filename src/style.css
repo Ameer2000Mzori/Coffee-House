@@ -1290,13 +1290,15 @@ body {
 }
 
 .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card .customers-Card-Text-1 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-family: "Josefin Sans", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   color: white;
   margin: 0;
   height: 50%;
   padding: 15px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card .customer-Card-Img-Name-Wrap {
@@ -1323,7 +1325,6 @@ body {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 500;
   color: white;
-  padding: 15px;
   padding: 0;
   margin: 0;
 }
