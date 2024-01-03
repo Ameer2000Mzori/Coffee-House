@@ -1584,22 +1584,22 @@ body {
 
         .contact-Right-Form-Wrap {
           width: 80%;
-          height: 60%;
+          height: 80%;
           display: flex;
           flex-direction: column;
           text-align: center;
-          align-items: center;
-          justify-content: center;
+          align-items: start;
+          justify-content: start;
 
           #text-Inputs-Id {
-            width: 400px;
+            width: 450px;
             margin: 5px;
             background-color: transparent;
             border: solid #2a2727 2px;
             border-left: none;
             border-right: none;
             border-top: none;
-            height: 200px;
+            height: 45px;
             outline: none;
             font-family: $fontTwo;
             font-size: 1rem;
@@ -1622,6 +1622,11 @@ body {
               font-family: $fontTwo;
               font-size: 1rem;
             }
+          }
+
+          .input-Appointment-Btn {
+            height: 20px;
+            width: 400px;
           }
         }
       }
