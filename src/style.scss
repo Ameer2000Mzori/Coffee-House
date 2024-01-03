@@ -1459,9 +1459,66 @@ body {
 }
 
 @media screen and (max-width: 900px) {
-  // 900px size
-}
+  .customers {
+    .customers-Wrap {
+      .customers-Top {
+        .customers-Top-Wrap {
+          .customers-Top-Text-1 {
+            font-size: 2.2rem;
+            padding: 0;
+            margin: 0;
+          }
 
-@media screen and (max-width: 768px) {
-  // 768px size
+          .customers-Top-Text-2 {
+            font-size: 2.2rem;
+            padding: 0;
+            margin: 0;
+            margin-bottom: 1rem;
+          }
+
+          .customers-Top-Text-3 {
+            font-size: 0.8rem;
+            padding: 0;
+            margin: 0;
+          }
+        }
+      }
+
+      .customers-Bottom {
+        height: 70%;
+
+        .customers-Bottom-Cards-Wrap {
+          .customers-Card {
+            justify-content: space-between;
+
+            .customers-Card-Text-1 {
+              font-size: 0.7rem;
+              font-weight: 300;
+              width: 70%;
+            }
+
+            .customer-Card-Img-Name-Wrap {
+              gap: 5px;
+              width: 30%;
+
+              .customer-Profile-Img {
+                height: 40px;
+                width: 40px;
+              }
+
+              .customer-Profile-Name {
+                font-size: 0.5rem;
+                font-weight: 400;
+              }
+            }
+          }
+
+          #customer-Card-2,
+          #customer-Card-4 {
+            height: 20%;
+          }
+        }
+      }
+    }
+  }
 }

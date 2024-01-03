@@ -1431,3 +1431,58 @@ body {
     height: 20%;
   }
 }
+
+@media screen and (max-width: 900px) {
+  .customers .customers-Wrap .customers-Top .customers-Top-Wrap .customers-Top-Text-1 {
+    font-size: 2.2rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .customers .customers-Wrap .customers-Top .customers-Top-Wrap .customers-Top-Text-2 {
+    font-size: 2.2rem;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .customers .customers-Wrap .customers-Top .customers-Top-Wrap .customers-Top-Text-3 {
+    font-size: 0.8rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .customers .customers-Wrap .customers-Bottom {
+    height: 70%;
+  }
+
+  .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card {
+    justify-content: space-between;
+  }
+
+  .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card .customers-Card-Text-1 {
+    font-size: 0.7rem;
+    font-weight: 300;
+    width: 70%;
+  }
+
+  .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card .customer-Card-Img-Name-Wrap {
+    gap: 5px;
+    width: 30%;
+  }
+
+  .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card .customer-Card-Img-Name-Wrap .customer-Profile-Img {
+    height: 40px;
+    width: 40px;
+  }
+
+  .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card .customer-Card-Img-Name-Wrap .customer-Profile-Name {
+    font-size: 0.5rem;
+    font-weight: 400;
+  }
+
+  .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap #customer-Card-2,
+  .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap #customer-Card-4 {
+    height: 20%;
+  }
+}
