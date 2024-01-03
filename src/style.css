@@ -1286,7 +1286,7 @@ body {
   flex-direction: column;
   text-align: start;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card .customers-Card-Text-1 {
@@ -1295,19 +1295,19 @@ body {
   font-weight: 500;
   color: white;
   margin: 0;
-  height: 60%;
+  height: 50%;
   padding: 15px;
 }
 
 .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card .customer-Card-Img-Name-Wrap {
-  height: 40%;
+  height: 100px;
   width: 90%;
   overflow: hidden;
   display: flex;
-  flex-direction: row;
+  flex-direction: flex;
   text-align: center;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
   gap: 10px;
 }
 
@@ -1319,11 +1319,13 @@ body {
 }
 
 .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card .customer-Card-Img-Name-Wrap .customer-Profile-Name {
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: "Josefin Sans", sans-serif;
   font-weight: 500;
   color: white;
   padding: 15px;
+  padding: 0;
+  margin: 0;
 }
 
 .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap #customer-Card-2 {

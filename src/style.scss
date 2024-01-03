@@ -1300,7 +1300,7 @@ body {
           flex-direction: column;
           text-align: start;
           align-items: center;
-          justify-content: center;
+          justify-content: flex-end;
 
           .customers-Card-Text-1 {
             font-size: 1.2rem;
@@ -1308,19 +1308,19 @@ body {
             font-weight: 500;
             color: white;
             margin: 0;
-            height: 60%;
+            height: 50%;
             padding: 15px;
           }
 
           .customer-Card-Img-Name-Wrap {
-            height: 40%;
+            height: 100px;
             width: 90%;
             overflow: hidden;
             display: flex;
-            flex-direction: row;
+            flex-direction: flex;
             text-align: center;
             align-items: center;
-            justify-content: start;
+            justify-content: flex-start;
             gap: 10px;
 
             .customer-Profile-Img {
@@ -1331,11 +1331,13 @@ body {
             }
 
             .customer-Profile-Name {
-              font-size: 1.3rem;
+              font-size: 1rem;
               font-family: $fontTwo;
               font-weight: 500;
               color: white;
               padding: 15px;
+              padding: 0;
+              margin: 0;
             }
           }
         }
