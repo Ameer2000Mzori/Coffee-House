@@ -1291,6 +1291,27 @@ body {
         align-items: start;
         justify-content: flex-end;
         flex-direction: column;
+
+        .customers-Card {
+          width: 20%;
+          height: 55%;
+          background-color: #c49b63;
+          display: flex;
+          flex-direction: column;
+          text-align: start;
+          align-items: center;
+          justify-content: center;
+
+          .customers-Card-Text-1 {
+            font-size: 1.2rem;
+            font-family: $fontTwo;
+            font-weight: 500;
+            color: white;
+            margin: 0;
+            height: 60%;
+            padding: 15px;
+          }
+        }
       }
     }
   }
