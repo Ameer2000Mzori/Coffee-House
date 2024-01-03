@@ -1662,5 +1662,63 @@ body {
 }
 // contact responsvness
 @media screen and (max-width: 950px) {
-  // size 950px
+  .contact {
+    .contact-Wrap {
+      .contact-Left {
+        display: none;
+      }
+
+      .contact-Right {
+        width: 90%;
+        height: 100%;
+
+        .contact-Right-Wrap {
+          .contact-Right-Text-1 {
+            font-size: 2rem;
+            width: 100%;
+            text-align: center;
+          }
+
+          .contact-Right-Form-Wrap {
+            height: 60%;
+            width: 100%;
+
+            #text-Inputs-Id {
+              width: 330px;
+              height: 50px;
+              font-size: 0.9rem;
+
+              &::placeholder {
+                font-size: 0.9rem;
+              }
+
+              &:active {
+                font-size: 0.9rem;
+              }
+
+              &:valid {
+                font-size: 0.9rem;
+              }
+            }
+
+            .input-Button-Wrap {
+              width: 250px;
+              height: 40px;
+              display: flex;
+              text-align: center;
+              align-items: center;
+              justify-content: center;
+              flex-direction: column;
+
+              .input-Appointment-Btn {
+                height: 40px;
+                width: 200px;
+                font-size: 0.9rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
