@@ -1267,10 +1267,16 @@ body {
       height: 70%;
       position: relative;
       z-index: 4;
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
 
       .customers-Bottom-Wrap {
         width: 100%;
         height: 100%;
+        display: flex;
         text-align: center;
         align-items: center;
         justify-content: center;
