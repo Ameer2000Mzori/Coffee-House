@@ -1322,6 +1322,21 @@ body {
             align-items: center;
             justify-content: start;
             gap: 10px;
+
+            .customer-Profile-Img {
+              border-radius: 50%;
+              height: 75px;
+              width: 75px;
+              object-fit: cover;
+            }
+
+            .customer-Profile-Name {
+              font-size: 1.3rem;
+              font-family: $fontTwo;
+              font-weight: 500;
+              color: white;
+              padding: 15px;
+            }
           }
         }
       }
