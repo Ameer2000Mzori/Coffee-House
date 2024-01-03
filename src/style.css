@@ -1511,6 +1511,16 @@ body {
   height: 100%;
 }
 
+.contact .contact-Wrap .contact-Left .contact-Left-Wrap {
+  height: 100%;
+  width: 100%;
+}
+
+.contact .contact-Wrap .contact-Left .contact-Left-Wrap .contact-Left-Img {
+  height: 100%;
+  width: 100%;
+}
+
 .contact .contact-Wrap .contact-Right {
   display: flex;
   flex-direction: column;

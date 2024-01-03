@@ -1543,6 +1543,16 @@ body {
     .contact-Left {
       width: 50%;
       height: 100%;
+
+      .contact-Left-Wrap {
+        height: 100%;
+        width: 100%;
+
+        .contact-Left-Img {
+          height: 100%;
+          width: 100%;
+        }
+      }
     }
 
     .contact-Right {
