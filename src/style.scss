@@ -1551,6 +1551,7 @@ body {
         .contact-Left-Img {
           height: 100%;
           width: 100%;
+          object-fit: cover;
         }
       }
     }
@@ -1625,7 +1626,7 @@ body {
           }
 
           .input-Button-Wrap {
-            width: 500px;
+            width: 450px;
             height: 60px;
             display: flex;
             text-align: center;
@@ -1658,4 +1659,8 @@ body {
       }
     }
   }
+}
+// contact responsvness
+@media screen and (max-width: 950px) {
+  // size 950px
 }

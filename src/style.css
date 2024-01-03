@@ -1519,6 +1519,7 @@ body {
 .contact .contact-Wrap .contact-Left .contact-Left-Wrap .contact-Left-Img {
   height: 100%;
   width: 100%;
+  object-fit: cover;
 }
 
 .contact .contact-Wrap .contact-Right {
@@ -1594,7 +1595,7 @@ body {
 }
 
 .contact .contact-Wrap .contact-Right .contact-Right-Wrap .contact-Right-Form-Wrap .input-Button-Wrap {
-  width: 500px;
+  width: 450px;
   height: 60px;
   display: flex;
   text-align: center;
