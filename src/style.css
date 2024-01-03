@@ -1298,3 +1298,15 @@ body {
   height: 60%;
   padding: 15px;
 }
+
+.customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card .customer-Card-Img-Name-Wrap {
+  height: 40%;
+  width: 90%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
