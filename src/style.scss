@@ -1636,6 +1636,22 @@ body {
             .input-Appointment-Btn {
               height: 40px;
               width: 400px;
+              background-color: #b48d57;
+              color: #fff;
+              font-family: $fontThree;
+              font-size: 1rem;
+              border: none;
+              transition: all 150ms ease-in-out;
+
+              &:hover {
+                cursor: pointer;
+                background-color: #c49b63;
+              }
+
+              &:active {
+                cursor: pointer;
+                background-color: #61584b;
+              }
             }
           }
         }
