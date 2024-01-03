@@ -1273,7 +1273,7 @@ body {
   height: 100%;
   display: flex;
   text-align: center;
-  align-items: center;
-  justify-content: center;
+  align-items: start;
+  justify-content: flex-end;
   flex-direction: column;
 }
